@@ -1,0 +1,40 @@
+body{
+background-color: #3D3BB3;
+font-family: 'Poppins', sans-serif;
+
+}
+.navbar {
+    padding-top: 1%;
+  padding-right: 5%;
+}
+.disabled{
+  color: white;
+}
+.nav-item {
+    padding: 0 1.5rem;
+  }
+h1{
+  color: aliceblue;
+  font-size: 5rem;
+  font-weight: 900;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 25%;
+}
+p{
+  color: whitesmoke;
+  font-size: 2rem;
+ 
+  line-height: 3.5rem;
+  width: fit-content;
+
+}
+.text{
+  text-align: start;
+  padding: 10rem 0 10% 5rem;
+  display: inline-block;
+  
+}
+.circle{
+padding: 5rem 0 0 30rem;
+}
