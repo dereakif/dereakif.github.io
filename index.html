@@ -1,80 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmet Akif DERE</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container-fluid">
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-md navbar-dark">
-            
-            <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto fs-4">
-                <li class="nav-item">
-                    <a class="nav-link fs-4" style="color: white;">My Projects</a>
-                  </li>
-             
-              <li class="nav-item">
-                <a class="nav-link" href="https://dereakif.github.io/tindog/">Tindog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://dereakif.github.io/drumkit/">Drum Kit</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://dereakif.github.io/simongame/">Simon Game</a>
-              </li>
-                <li class="nav-item">
-                <a class="nav-link" href="https://dereakif.github.io/mywatchlist/">MyWatchList App</a>
-              </li>
-                <li class="nav-item">
-                <a class="nav-link" href="https://dereakif.github.io/simplenote-app/">Simplenote App</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <!-- Title -->
-        <div class="row">
-          <div class="col-lg-4 text">
-            <h1>Hello!</h1>
-            <p>I am a Front-End Developer from Turkey and currently living in Bursa.</p> 
-              <p> Let's create!</p>
-          </div>
-          
-          <div class="col-lg-8 circle">
-            <canvas id="myCanvas" width="700" height="700"></canvas>
-          </div>
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akif Dere | Frontend Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Akif Dere, Frontend Developer. Featuring selected projects and professional experience."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <nav class="nav container">
+        <a class="brand" href="#top">AAD</a>
+        <ul class="nav-links">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="mailto:hello@example.com">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-content container">
+        <p class="eyebrow">Frontend Developer</p>
+        <h1>Hi, I’m Akif Dere.</h1>
+        <p class="intro">
+          I design and build modern, high-performance web experiences with React,
+          Next.js, TypeScript, and scalable UI systems.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#projects">Explore Projects</a>
+          <a class="btn btn-ghost" href="#experience">View Experience</a>
         </div>
-        
+      </div>
+    </header>
 
+    <main>
+      <section class="section container" id="projects">
+        <div class="section-head">
+          <p class="eyebrow">Portfolio</p>
+          <h2>Selected Projects</h2>
+          <p>
+            You can replace these placeholders with final project links when you
+            decide which work to highlight.
+          </p>
+        </div>
 
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Project One</h3>
+            <p>
+              Placeholder for a featured project. Add a short description, key
+              stack, and outcomes.
+            </p>
+            <a href="" aria-disabled="true">Project Link (coming soon)</a>
+          </article>
 
+          <article class="project-card">
+            <h3>Project Two</h3>
+            <p>
+              Placeholder for another project where you solved a real product or
+              UX problem.
+            </p>
+            <a href="" aria-disabled="true">Project Link (coming soon)</a>
+          </article>
 
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <article class="project-card">
+            <h3>Project Three</h3>
+            <p>
+              Placeholder for an interactive app, dashboard, or a case-study
+              style build.
+            </p>
+            <a href="" aria-disabled="true">Project Link (coming soon)</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="experience">
+        <div class="section-head">
+          <p class="eyebrow">Career</p>
+          <h2>Work Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Frontend Developer · ingosa.ai</h3>
+              <p class="meta">August 2023 – Present · Remote · Istanbul, Türkiye</p>
+              <ul>
+                <li>
+                  Built frontend architecture for two marketing-focused,
+                  web-based HTML5 banner generation platforms.
+                </li>
+                <li>
+                  Designed and extended an interactive canvas editor for
+                  conversational-flow based banner creation.
+                </li>
+                <li>
+                  Implemented banner-side rendering and interaction logic that
+                  mirrors editor-defined behaviors.
+                </li>
+                <li>
+                  Built authentication and role-based access control for a
+                  multi-tenant product.
+                </li>
+                <li>
+                  Partnered with stakeholders to clarify requirements and deliver
+                  scalable UI solutions.
+                </li>
+                <li>
+                  Core stack: React, Next.js, React Hook Form, ApexCharts,
+                  Tailwind CSS, MUI.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Frontend Developer · HangiKredi</h3>
+              <p class="meta">April 2022 – August 2023 · Remote</p>
+              <ul>
+                <li>
+                  Contributed to high-traffic feature development supporting over
+                  12M monthly visitors.
+                </li>
+                <li>
+                  Developed middleware applications for corporate-to-bank
+                  integrations and invoice payment workflows.
+                </li>
+                <li>
+                  Improved Next.js Lighthouse performance and Core Web Vitals.
+                </li>
+                <li>
+                  Implemented OTP authentication and reusable component patterns.
+                </li>
+                <li>
+                  Collaborated with analytics teams to track key events via GTM.
+                </li>
+                <li>
+                  Core stack: Vanilla JS, Next.js, TypeScript, Redux Toolkit,
+                  Redux-Saga, React Hook Form, Tailwind CSS, Bitbucket.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Frontend Developer · Patika.dev</h3>
+              <p class="meta">April 2021 – April 2022 · Full-time</p>
+              <ul>
+                <li>
+                  Contributed to product features serving 45,000+ users.
+                </li>
+                <li>
+                  Supported backend services with Node.js, MongoDB, and GraphQL.
+                </li>
+                <li>
+                  Built admin interfaces in React with GraphQL integrations.
+                </li>
+                <li>
+                  Created CronJobs to automate repetitive report and content
+                  operations.
+                </li>
+                <li>
+                  Worked in Agile (Scrum) processes with cross-functional teams.
+                </li>
+                <li>
+                  Core stack: React, Styled Components, Apollo GraphQL, Node.js,
+                  MongoDB, Meteor, GitHub.
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© 2026 Akif Dere</p>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
