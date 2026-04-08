@@ -5,7 +5,7 @@
   --text: #eef2ff;
   --muted: #b4bddf;
   --primary: #7c86ff;
-  --accent: #45d6b0;
+  --accent: #45a6d6;
   --border: rgba(144, 157, 213, 0.28);
 }
 
@@ -20,7 +20,8 @@ html {
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
-  background: radial-gradient(circle at 10% 10%, #182046 0, var(--bg) 42%), var(--bg);
+  background:
+    radial-gradient(circle at 10% 10%, #182046 0, var(--bg) 42%), var(--bg);
   color: var(--text);
   line-height: 1.6;
 }
